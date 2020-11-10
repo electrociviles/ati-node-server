@@ -9,6 +9,6 @@ module.exports = {
     user: 'nTorres#*Enrrique@Cleo:?mama',
     pass: 'nTJacob*$%@Cleo*..bnSystem'
   },
-  origins: ['http://www.ati.com.co', 'www.ati.com.co', 'ati.com.co', 'http://ati.com.co'],
+  origins: ['http://www.ati.com.co', 'www.ati.com.co', 'ati.com.co', 'http://ati.com.co', '*'],
 
 }
