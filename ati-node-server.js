@@ -188,12 +188,12 @@ disconnectUser = user => {
 }
 
 cron.schedule(procesos.getPosition.times, function () {
-  console.log('getPosition', new Date())
+  // console.log('getPosition', new Date())
   //io.sockets.emit('onLocation', {'name': 'Nelson Torres'})
 
 })
 cron.schedule(procesos.validateTimeService.times, function () {
-  console.log('validateTimeService', new Date())
+  // console.log('validateTimeService', new Date())
 
   schemas.Service.find({ status: 'started' }, { startTime: 1, endTime: 1, hours: 1 })
     .populate({ path: 'customer', select: { token: 1 } })
